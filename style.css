@@ -21,36 +21,42 @@ body {
 .fill-nav
 {
     background-color: #aa0601;
+    
+
      
 }
 
 .nav
 {
     background-color: #aa0601;
+  
+   
      
 }
 
-.nav2 li
+.nav2-li
 {
   
     font-size: 30px;
     color: #ffffff;
     padding: 25px 32px;
-     
 }
+.nav2-li-4
+{
+  
+    font-size: 30px;
+    color: #ffffff;
+    padding: 25px 0px 25px 32px;
+}
+
+
 .footer{
-   
-    background-color: #aa0601;
-    
-} 
-.section1{
-   
-    background-color: green ;
-    
+    background-color: #aa0601;  
 } 
 
+
 .txt{
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 
@@ -61,6 +67,17 @@ body {
     font-size: 24px;
     color: #ffffff;
     padding: 60px 32px 45px 0px;
+  
+   
+}
+
+.f11 li
+{
+  
+    font-size: 24px;
+    color: #ffffff;
+    padding: 60px 32px 45px 0px;
+   
    
 }
 
@@ -72,7 +89,11 @@ body {
 {
     width: 40px;
 }
+.f2 li
+{
+ padding:0px;
 
+}
 
 .f2-txt
 {
@@ -128,6 +149,71 @@ body {
 }
 
 
+@media  (max-width: 992px)
+{
+.container {
+    margin: 0 auto;
+    max-width: 992px;
+    padding-left: 36px;
+    padding-right: 36px;
+  
+   
+}
+.nav1 
+{
+  
+       padding: 12px 88px 12px 0px;
+}
+
+
+
+
+
+
+.f11 li
+{
+  
+    font-size: 16px;
+    padding: 56px 48px 40px 0px;
+   
+   
+}
+
+.f2-txt
+{
+ 
+    font-size: 36px;
+    
+}
+.f-icon li img
+{  
+      width: 40px;
+}
+
+
+.f-final-left li
+{
+  
+    font-size: 16px;
+     
+}
+
+
+.f-final-right li
+
+{
+ 
+    font-size: 16px;
+     
+}
+.f-icon ul 
+{  
+    padding: 20px 32px;
+    padding-right: 0px; 
+   
+}
+
+}
 
    
 
@@ -137,7 +223,8 @@ body {
 .container {
     margin: 0 auto;
     max-width: 576px;
-   
+    padding:0px;
+ 
 }
 .fill-nav .nav
 {
@@ -159,6 +246,21 @@ body {
 }
 
 .nav2 li
+{
+  
+    font-size: 16px;
+    padding: 0px;
+ 
+}
+.nav2-li4
+{
+  
+    font-size: 16px;
+    padding: 0px;
+}
+
+
+.nav2 a
 {
     text-align: center;
     font-size: 24px;
@@ -196,7 +298,7 @@ padding:11px 0px 8px 0px;
 
 .f2 .f2-txt
 {  
-    font-size: 24px;
+    font-size: 16px;
     color: #ffffff;
     padding: 0px 0px 0px 11px ;   
 }
@@ -204,7 +306,7 @@ padding:11px 0px 8px 0px;
 
 .f-icon li 
 {  
-    font-size: 24px;
+    font-size: 16px;
     color: #ffffff;
     padding: 0px 8px;
 }  
@@ -228,7 +330,7 @@ padding:11px 0px 8px 0px;
 .f-final-left li
 {
 
-    font-size: 24px;
+    font-size: 16px;
     padding: 16px 0px 8px 0px;
 }
 .f-final-right ul
@@ -242,7 +344,7 @@ padding:11px 0px 8px 0px;
 .f-final-right li
 {
 
-    font-size: 24px;
+    font-size: 16px;
     padding: 4px 0px 8px 0px;
 }
 
