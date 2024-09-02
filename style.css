@@ -10,6 +10,8 @@
 .container {
     margin: 0 auto;
     max-width: 1296px;
+    padding-left: 12px;
+    padding-right: 12px;
    
 }
 
@@ -21,42 +23,46 @@ body {
 .fill-nav
 {
     background-color: #aa0601;
-    
-
      
 }
 
 .nav
 {
     background-color: #aa0601;
-  
-   
      
 }
+a{text-decoration:none}
 
-.nav2-li
+
+
+.nav2 li
 {
   
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     padding: 25px 32px;
+    text-decoration:nonea;
+     
 }
-.nav2-li-4
+.nav2 a
 {
-  
-    font-size: 30px;
+    
     color: #ffffff;
-    padding: 25px 0px 25px 32px;
+     
 }
-
-
 .footer{
-    background-color: #aa0601;  
+   
+    background-color: #aa0601;
+    
+} 
+.section1{
+   
+    background-color: green ;
+    
 } 
 
-
 .txt{
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 
@@ -64,21 +70,28 @@ body {
 .f1 li
 {
   
-    font-size: 24px;
+    font-size: 16px;
     color: #ffffff;
-    padding: 60px 32px 45px 0px;
-  
+    padding: 60px 32px 36px 0px;
    
 }
 
-.f11 li
+.f2 li
 {
   
-    font-size: 24px;
+    font-size: 16px;
     color: #ffffff;
-    padding: 60px 32px 45px 0px;
+    padding: 0px;
    
-   
+}
+
+.f2-text-1
+{
+    padding: 0px 0px 8px 0px;
+}
+.f2
+{
+    padding: 0px 0px 32px 0px;
 }
 
 .bi-telephone
@@ -89,16 +102,12 @@ body {
 {
     width: 40px;
 }
-.f2 li
-{
- padding:0px;
 
-}
 
 .f2-txt
 {
   
-    font-size: 54px;
+    font-size: 36px;
     color: #ffffff;
     padding: 8px 22px ;
      
@@ -129,7 +138,7 @@ body {
 
 {
   
-    font-size: 21px;
+    font-size: 16px;
     color: #ffffff;
     padding: 32px 0px;
      
@@ -142,89 +151,128 @@ body {
 
 {
   
-    font-size: 21px;
+    font-size: 14px;
     color: #ffffff;
     padding: 32px 0px 32px 48px;
      
 }
-
 
 @media  (max-width: 992px)
 {
 .container {
     margin: 0 auto;
     max-width: 992px;
-    padding-left: 36px;
-    padding-right: 36px;
-  
-   
-}
-.nav1 
-{
-  
-       padding: 12px 88px 12px 0px;
-}
-
-
-
-
-
-
-.f11 li
-{
-  
-    font-size: 16px;
-    padding: 56px 48px 40px 0px;
-   
    
 }
 
-.f2-txt
+
+.footer
 {
- 
-    font-size: 36px;
-    
+    padding:13px;
 }
-.f-icon li img
+.f1 .f11
+{
+    display: none;
+}
+
+.f2 li
+
+{
+padding:11px 0px 8px 0px;
+
+}
+.bi-telephone
+{
+    width: 18px;
+    padding:0px;
+} 
+.bi-envelope
+{
+    width: 20px;
+    padding:0px;
+
+}
+
+.f2 .f2-txt
 {  
-      width: 40px;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 0px 0px 11px ;   
 }
-
-
-.f-final-left li
+.f2 .a
 {
-  
-    font-size: 16px;
-     
+    font-size: 24px;
+    color: #ffffff; 
 }
 
-
-.f-final-right li
-
-{
- 
-    font-size: 16px;
-     
-}
+.f-icon li 
+{  
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 8px;
+}  
 .f-icon ul 
 {  
-    padding: 20px 32px;
-    padding-right: 0px; 
+    padding: 11px 0px 0px 0px;
    
+}
+
+.f-icon li img
+{  
+      width: 24px;
+      padding: 0px; 
+}
+
+
+.ff .f-final
+{
+    display: block;
+}
+.f-final-left li
+{
+
+    font-size: 24px;
+    padding: 16px 0px 8px 0px;
+}
+.f-final-right ul
+
+{
+  
+    display: block;
+    
+}
+
+.f-final-right li
+{
+
+    font-size: 24px;
+    padding: 4px 0px 8px 0px;
 }
 
 }
 
-   
 
 
-@media  (max-width: 576px)
+
+
+
+
+
+
+@media  (max-width: 767px)
 {
 .container {
     margin: 0 auto;
-    max-width: 576px;
-    padding:0px;
- 
+    max-width: 767px;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+a
+{
+    
+    color: #ffffff;
+     
 }
 .fill-nav .nav
 {
@@ -247,23 +295,8 @@ body {
 
 .nav2 li
 {
-  
-    font-size: 16px;
-    padding: 0px;
- 
-}
-.nav2-li4
-{
-  
-    font-size: 16px;
-    padding: 0px;
-}
-
-
-.nav2 a
-{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     border: 1px solid #ffffff;
     padding: 12px 60px;
     width: 50%;
@@ -295,18 +328,23 @@ padding:11px 0px 8px 0px;
     padding:0px;
 
 }
-
+.f2
+{
+    padding: 0px;  
+}
 .f2 .f2-txt
 {  
     font-size: 16px;
     color: #ffffff;
     padding: 0px 0px 0px 11px ;   
 }
-
-
+.f2 a
+{
+    color: #ffffff; 
+}
 .f-icon li 
 {  
-    font-size: 16px;
+    font-size: 24px;
     color: #ffffff;
     padding: 0px 8px;
 }  
